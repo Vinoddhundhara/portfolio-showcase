@@ -383,7 +383,7 @@ export default function Home() {
           </p>
           <div className="flex gap-6">
             <a
-              href="https://leetcode.com/u/vinod_dhundhara/"
+              href="https://leetcode.com/YOUR_LEETCODE_USERNAME/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-colors text-sm font-medium"
@@ -392,7 +392,7 @@ export default function Home() {
             </a>
 
             <a
-              href="https://www.linkedin.com/in/vinod-392073204/"
+              href="https://www.linkedin.com/in/YOUR_LINKEDIN_ID"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-colors text-sm font-medium"

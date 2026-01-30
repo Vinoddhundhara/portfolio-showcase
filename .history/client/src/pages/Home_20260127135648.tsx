@@ -295,12 +295,12 @@ export default function Home() {
                 <div className="w-full bg-secondary h-2 rounded-full overflow-hidden">
                   <motion.div
                     initial={{ width: 0 }}
-                    whileInView={{ width: "70%" }}
+                    whileInView={{ width: "65%" }}
                     viewport={{ once: true }}
                     className="h-full bg-primary"
                   />
                 </div>
-                <div className="mt-2 text-right text-sm text-muted-foreground font-mono">60% Complete</div>
+                <div className="mt-2 text-right text-sm text-muted-foreground font-mono">65% Complete</div>
               </div>
               <div className="relative">
                 <div className="aspect-video rounded-xl bg-black/50 border border-white/10 flex items-center justify-center">
@@ -382,34 +382,10 @@ export default function Home() {
             © {new Date().getFullYear()} Portfolio. Built with React & Tailwind.
           </p>
           <div className="flex gap-6">
-            <a
-              href="https://leetcode.com/u/vinod_dhundhara/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-muted-foreground hover:text-primary transition-colors text-sm font-medium"
-            >
-              LeetCode
-            </a>
-
-            <a
-              href="https://www.linkedin.com/in/vinod-392073204/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-muted-foreground hover:text-primary transition-colors text-sm font-medium"
-            >
-              LinkedIn
-            </a>
-
-            <a
-              href="https://twitter.com/YOUR_TWITTER_USERNAME"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-muted-foreground hover:text-primary transition-colors text-sm font-medium"
-            >
-              Twitter
-            </a>
+            <a href="#" className="text-muted-foreground hover:text-primary transition-colors text-sm font-medium">GitHub</a>
+            <a href="#" className="text-muted-foreground hover:text-primary transition-colors text-sm font-medium">LinkedIn</a>
+            <a href="#" className="text-muted-foreground hover:text-primary transition-colors text-sm font-medium">Twitter</a>
           </div>
-
         </div>
       </footer>
     </div>

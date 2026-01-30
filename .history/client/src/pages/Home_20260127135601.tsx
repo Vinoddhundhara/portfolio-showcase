@@ -127,40 +127,40 @@ export default function Home() {
             </div>
 
             <div className="mt-12 flex gap-6 text-muted-foreground">
-              <a
-                href="https://leetcode.com/u/vinod_dhundhara/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hover:text-primary transition-colors"
-              >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 24 24"
-                  fill="currentColor"
-                  className="w-6 h-6"
-                >
-                  <path d="M16.102 17.93l-2.297 2.297a2.875 2.875 0 01-4.066 0L3.77 14.258a2.875 2.875 0 010-4.066l5.969-5.969a2.875 2.875 0 014.066 0l2.1 2.1-1.414 1.414-2.1-2.1a.875.875 0 00-1.238 0L5.184 11.606a.875.875 0 000 1.238l5.969 5.969a.875.875 0 001.238 0l2.297-2.297 1.414 1.414z" />
-                  <path d="M20.23 12a1 1 0 01-1 1h-7.5a1 1 0 010-2h7.5a1 1 0 011 1z" />
-                </svg>
-              </a>
+  <a
+  href="https://leetcode.com/YOUR_LEETCODE_USERNAME/"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="hover:text-primary transition-colors"
+>
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 24 24"
+    fill="currentColor"
+    className="w-6 h-6"
+  >
+    <path d="M16.102 17.93l-2.297 2.297a2.875 2.875 0 01-4.066 0L3.77 14.258a2.875 2.875 0 010-4.066l5.969-5.969a2.875 2.875 0 014.066 0l2.1 2.1-1.414 1.414-2.1-2.1a.875.875 0 00-1.238 0L5.184 11.606a.875.875 0 000 1.238l5.969 5.969a.875.875 0 001.238 0l2.297-2.297 1.414 1.414z"/>
+    <path d="M20.23 12a1 1 0 01-1 1h-7.5a1 1 0 010-2h7.5a1 1 0 011 1z"/>
+  </svg>
+</a>
 
 
-              <a
-                href="https://www.linkedin.com/in/vinod-392073204/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hover:text-primary transition-colors"
-              >
-                <Linkedin size={24} />
-              </a>
+  <a
+    href="https://www.linkedin.com/in/vinod-392073204/"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="hover:text-primary transition-colors"
+  >
+    <Linkedin size={24} />
+  </a>
 
-              <a
-                href="mailto:vinoddhundhara77@gmail.com"
-                className="hover:text-primary transition-colors"
-              >
-                <Mail size={24} />
-              </a>
-            </div>
+  <a
+    href="mailto:vinoddhundhara77@gmail.com"
+    className="hover:text-primary transition-colors"
+  >
+    <Mail size={24} />
+  </a>
+</div>
 
           </motion.div>
 
@@ -295,12 +295,12 @@ export default function Home() {
                 <div className="w-full bg-secondary h-2 rounded-full overflow-hidden">
                   <motion.div
                     initial={{ width: 0 }}
-                    whileInView={{ width: "70%" }}
+                    whileInView={{ width: "65%" }}
                     viewport={{ once: true }}
                     className="h-full bg-primary"
                   />
                 </div>
-                <div className="mt-2 text-right text-sm text-muted-foreground font-mono">60% Complete</div>
+                <div className="mt-2 text-right text-sm text-muted-foreground font-mono">65% Complete</div>
               </div>
               <div className="relative">
                 <div className="aspect-video rounded-xl bg-black/50 border border-white/10 flex items-center justify-center">
@@ -382,34 +382,10 @@ export default function Home() {
             © {new Date().getFullYear()} Portfolio. Built with React & Tailwind.
           </p>
           <div className="flex gap-6">
-            <a
-              href="https://leetcode.com/u/vinod_dhundhara/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-muted-foreground hover:text-primary transition-colors text-sm font-medium"
-            >
-              LeetCode
-            </a>
-
-            <a
-              href="https://www.linkedin.com/in/vinod-392073204/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-muted-foreground hover:text-primary transition-colors text-sm font-medium"
-            >
-              LinkedIn
-            </a>
-
-            <a
-              href="https://twitter.com/YOUR_TWITTER_USERNAME"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-muted-foreground hover:text-primary transition-colors text-sm font-medium"
-            >
-              Twitter
-            </a>
+            <a href="#" className="text-muted-foreground hover:text-primary transition-colors text-sm font-medium">GitHub</a>
+            <a href="#" className="text-muted-foreground hover:text-primary transition-colors text-sm font-medium">LinkedIn</a>
+            <a href="#" className="text-muted-foreground hover:text-primary transition-colors text-sm font-medium">Twitter</a>
           </div>
-
         </div>
       </footer>
     </div>

@@ -36,26 +36,14 @@ export default function ProjectCard({ project, index }: ProjectCardProps) {
         </p>
 
         <div className="flex flex-wrap gap-2 mb-6">
-          {Array.isArray(project.technologies)
-            ? project.technologies.map((tech) => (
-              <span
-                key={tech}
-                className="px-2 py-1 text-xs font-mono rounded-md bg-primary/10 text-primary border border-primary/20"
-              >
-                {tech}
-              </span>
-            ))
-            : project.technologies
-              ?.split(",")
-              .map((tech) => (
-                <span
-                  key={tech.trim()}
-                  className="px-2 py-1 text-xs font-mono rounded-md bg-primary/10 text-primary border border-primary/20"
-                >
-                  {tech.trim()}
-                </span>
-              ))}
-
+          {project.technologies.map((tech) => (
+            <span
+              key={tech}
+              className="px-2 py-1 text-xs font-mono rounded-md bg-primary/10 text-primary border border-primary/20"
+            >
+              {tech}
+            </span>
+          ))}
         </div>
 
         <div className="flex items-center gap-4 mt-auto">
