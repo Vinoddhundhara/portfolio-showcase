@@ -117,13 +117,14 @@ export default function Home() {
                 View Projects
               </Button>
               <Button
-                variant="outline"
-                size="lg"
-                className="rounded-full px-8 text-lg h-12 border-white/10 hover:bg-white/5"
-                onClick={() => window.open("https://drive.google.com/file/d/1hqsosJB0vucWlsZUZboFdYQcdyjXLhLi/view?usp=sharing", "_blank")}
-              >
-                My Resume
-              </Button>
+  variant="outline"
+  size="lg"
+  className="rounded-full px-8 text-lg h-12 border-white/10 hover:bg-white/5"
+  onClick={() => window.open("https://drive.google.com/file/d/YOUR_RESUME_ID/view", "_blank")}
+>
+  Resume
+</Button>
+
             </div>
 
             <div className="mt-12 flex gap-6 text-muted-foreground">

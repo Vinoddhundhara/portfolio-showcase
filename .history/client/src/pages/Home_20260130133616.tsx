@@ -122,8 +122,9 @@ export default function Home() {
                 className="rounded-full px-8 text-lg h-12 border-white/10 hover:bg-white/5"
                 onClick={() => window.open("https://drive.google.com/file/d/1hqsosJB0vucWlsZUZboFdYQcdyjXLhLi/view?usp=sharing", "_blank")}
               >
-                My Resume
+                Resume
               </Button>
+
             </div>
 
             <div className="mt-12 flex gap-6 text-muted-foreground">

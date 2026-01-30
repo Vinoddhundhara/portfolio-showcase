@@ -120,9 +120,9 @@ export default function Home() {
                 variant="outline"
                 size="lg"
                 className="rounded-full px-8 text-lg h-12 border-white/10 hover:bg-white/5"
-                onClick={() => window.open("https://drive.google.com/file/d/1hqsosJB0vucWlsZUZboFdYQcdyjXLhLi/view?usp=sharing", "_blank")}
+                onClick={() =>  window.open("https://drive.google.com/file/d/1hqsosJB0vucWlsZUZboFdYQcdyjXLhLi/view?usp=sharing", "_blank")}
               >
-                My Resume
+                Contact Me
               </Button>
             </div>
 
