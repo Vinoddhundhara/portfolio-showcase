@@ -1,18 +1,16 @@
 import { defineConfig } from "drizzle-kit";
 
 if (!process.env.DATABASE_URL) {
-  throw new Error("DATABASE_URL is missing");
+  throw new Error("DATABASE_URL is missing. Check your .env file");
 }
 
 export default defineConfig({
   schema: "./shared/schema.ts",
   out: "./drizzle",
-
-  // ✅ REQUIRED in latest drizzle-kit
-  dialect: "postgresql",
+  driver: "pg",
 
   dbCredentials: {
-    url: process.env.DATABASE_URL,
+    connectionString: process.env.DATABASE_URL,
     ssl: {
       rejectUnauthorized: false,
     },
